@@ -3,3 +3,4 @@ Este repositório tem por finalidade compartilhar conhecimento resumido por alun
 
 ### Participantes:
 - Igor Xisto: https://github.com/igorxisto
+- Kauã: https://github.com/k-dias
