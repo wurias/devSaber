@@ -11,9 +11,8 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 98vw;
-    height: 98vh;
-    min-width: 440px;
+    width: 97vw;
+    height: 97vh;
     background-color: rgba(0, 0, 0, 0.747);
 }
 
@@ -26,7 +25,7 @@ header {
     align-items: center;
     justify-content: space-around;
     background-color: rgb(255, 208, 0);
-    min-width: 245px;
+    min-width: 290px;
 }
 
 header p {
@@ -92,7 +91,7 @@ header p {
     margin-top: 5px;
     background-color: rgba(240, 248, 255, 0.548);
     border: 10px ridge rgb(255, 255, 255);
-    min-width: 440px;
+    min-width: 300px;
 }
 
 .container-pages h1 {
