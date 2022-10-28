@@ -1,0 +1,109 @@
+@font-face {
+    font-family: 'devitta';
+    src: url('fonts/devitta/devitta.ttf') format('truetype'), url('fonts/devitta/devitta_italic.ttf') format('truetipe');
+    font-weight: normal;
+}
+
+
+        /* === CSS PARA 'BODY' e 'HEADER' DE TODAS AS PÁGINAS === */
+body {    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 98vw;
+    height: 98vh;
+    min-width: 440px;
+    background-color: rgba(0, 0, 0, 0.747);
+}
+
+header {
+    display: flex;
+    width: 45%;
+    height: 68px;
+    border-radius: 5px 5px 50px 50px;
+    margin-top: 2px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(255, 208, 0);
+    min-width: 245px;
+}
+
+header p {
+    font-size: 20px;
+}
+
+        /* PROPRIEDADES DO TITULO(texto) */
+#titulo-main {
+    font-family: 'devitta','Times New Roman', Times, serif;
+    font-size: 45px;
+    text-shadow: 0px 0px 10px white;
+}
+        /* === 'container-main' e seus filhos SÃO CLASS USADAS SOMENTE NA PÁGINA PRINCIPAL (index.html) */
+.container-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    width: 80%;
+    height: 100%;
+    margin-top: 5px;
+}
+
+.container-main a {
+    text-decoration: none;
+}
+        /* === PROPRIEDADES DOS BOTÕES DA PÁGINA PRINCIPAL (index.html) === */
+.btn-page {
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 80px;
+    border: 3px double white;
+    border-radius: 10px 10px 10px 10px;
+    margin: 10px;
+
+    /*  PROPRIEDADES DA FONTE DENTRO DE BUTTON */
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.btn-page img {
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+}
+
+.btn-page:hover {
+    transform: scale(1.05);
+    background-color: rgba(105, 190, 230, 0.596);
+}
+
+        /* ===  CSS DAS PAGINAS SECUNDARIAS === */
+
+.container-pages {    
+    width: 80%;
+    height: 100%;
+    margin-top: 5px;
+    background-color: rgba(240, 248, 255, 0.548);
+    border: 10px ridge rgb(255, 255, 255);
+    min-width: 440px;
+}
+
+.container-pages h1 {
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: rgba(240, 248, 255, 0.575);
+}
+
+.container-pages p {
+    font-size: 18px;
+    line-height: 30px;
+}
