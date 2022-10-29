@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
     font-family: 'devitta';
     src: url('fonts/devitta/devitta.ttf') format('truetype'), url('fonts/devitta/devitta_italic.ttf') format('truetipe');
@@ -19,13 +20,13 @@ body {
 header {
     display: flex;
     width: 45%;
-    height: 68px;
-    border-radius: 5px 5px 50px 50px;
+    height: 58px;
+    border-radius: 50px 50px 50px 50px;
     margin-top: 10px;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     background-color: rgb(255, 208, 0);
-    min-width: 290px;
+    min-width: 300px;
 }
 
 header p {
@@ -106,3 +107,23 @@ header p {
     font-size: 18px;
     line-height: 30px;
 }
+
+        /*  CSS PARA MOBILE  */
+
+@media only screen and (max-width: 600px) {
+    
+
+    #titulo-main {
+        font-size: 30px;
+    }
+
+    header p {
+        font-size: 17px;
+    }
+
+    .container-pages p {
+        font-size: 13px;
+        line-height: 30px;
+    }
+
+} 
