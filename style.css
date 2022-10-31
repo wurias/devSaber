@@ -64,9 +64,10 @@ header p {
     height: 60px;
     border: 3px double white;
     border-radius: 10px 10px 10px 10px;
-    margin: 4px;
+    padding: 0 60px;
+    margin: 2px;
 
-    /*  PROPRIEDADES DA FONTE DENTRO DE BUTTON */
+    /*  PROPRIEDADES DA FONTE DENTRO DE BUTTON (btn-page)*/
     font-size: 25px;
     color: white;
     font-weight: bold;
@@ -76,7 +77,7 @@ header p {
 .btn-page img {
     width: 40px;
     height: 40px;
-    margin-left: 10px;
+    margin-left: 8px;
 }
 
 .btn-page:hover {
