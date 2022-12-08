@@ -46,7 +46,7 @@ code {
 }
 
         /* PROPRIEDADES DO TITULO(texto) */
-#titulo-main {
+#titulo-main, #titulo-main-grande {
     font-family: 'devitta','Times New Roman', Times, serif;
     font-size: 45px;
     text-shadow: 0px 0px 10px white;
@@ -73,7 +73,7 @@ code {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 110px;
+    width: 150px;
     height: 60px;
     border: 3px double white;
     border-radius: 10px 10px 10px 10px;
@@ -81,6 +81,23 @@ code {
     margin: 2px;
 
     /*  PROPRIEDADES DA FONTE DENTRO DE BUTTON (btn-page)*/
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.nomesGrandes .btn-page {
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: 60px;
+    border: 3px double white;
+    border-radius: 10px 10px 10px 10px;
+    padding: 0 60px;
+    margin: 2px;
     font-size: 25px;
     color: white;
     font-weight: bold;
@@ -129,6 +146,11 @@ code {
 
     #titulo-main {
         font-size: 30px;
+    }
+
+    #titulo-main-grande {
+        font-size: 22px;
+        margin: 0 10px;
     }
 
     header p {
