@@ -160,6 +160,23 @@ article img {
     line-height: 30px;
 }
 
+.ol_list {
+    padding-left: 45px;
+}
+
+.ol_list  u {
+    font-weight: bold;
+}
+
+.ctrl_pages {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.ctrl_pages a {
+    text-decoration: none;
+}
         /*  CSS PARA MOBILE  */
 
 @media only screen and (max-width: 600px) {
@@ -191,6 +208,14 @@ article img {
         width: 350px;
         height: 70px;
         
+    }
+
+    .ol_list {
+        padding-left: 10px;
+    }
+
+    .ol_list li {
+        font-size: 13px;
     }
 
 } 
