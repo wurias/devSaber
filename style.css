@@ -172,10 +172,12 @@ article img {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    padding-bottom: 10px;
 }
 
 .ctrl_pages a {
     text-decoration: none;
+    color: rgb(255, 208, 0);
 }
         /*  CSS PARA MOBILE  */
 
