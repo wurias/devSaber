@@ -104,8 +104,7 @@ article img {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
-    
+    justify-content: center;    
 }
 
 .nomesGrandes .btn-page, .nomesPequenos .btn-page {
@@ -113,27 +112,27 @@ article img {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 550px;
-    height: 100px;
+    width: 350px;
+    height: 80px;
     border: 3px double white;
-    border-radius: 10px 10px 10px 10px;
-    padding: 0 20px;
+    border-radius: 10px 10px;
+    padding: 0 10px;
     margin: 2px;
     font-size: 25px;
     color: white;
     font-weight: bold;
     font-style: italic;
 }
-
+/*
 .btn-page img {
     width: 40px;
     height: 40px;
     margin-left: 8px;
 }
-
+*/
 .btn-page:hover {
-    transform: scale(1.05);
-    background-color: rgba(105, 190, 230, 0.596);
+    transform: scale(1.02);
+    background-color: rgba(255, 0, 0, 0.247);
 }
 
         /* ===  CSS DAS PAGINAS SECUNDARIAS === */
