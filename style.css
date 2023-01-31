@@ -6,8 +6,7 @@
 }
 
 html {
-    width: 100vw;
-    height: 100vh;
+    width: 98vw;
 }
 
 
@@ -18,7 +17,7 @@ body {
     align-items: center;
     justify-content: flex-start;
     width: 100%;
-    height: 98%;
+    height: auto;
     background-color: rgba(0, 0, 0, 0.747);
 }
 
@@ -178,6 +177,23 @@ article img {
     text-decoration: none;
     color: rgb(255, 208, 0);
 }
+
+        /*  TABELA  */
+table, tr, th, td {
+    padding: 8px;
+    margin: 0 auto;
+    border: 1px solid black;
+    text-align: center;
+    width: 50%;
+}
+
+th {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-shadow: 
+    1px 1px 2px rgb(0, 0, 0),
+    -1px -1px 2px rgb(0, 0, 0);
+}
         /*  CSS PARA MOBILE  */
 
 @media only screen and (max-width: 600px) {
@@ -217,6 +233,10 @@ article img {
 
     .ol_list li {
         font-size: 13px;
+    }
+
+    table, tr, th, td {
+        width: auto;
     }
 
 } 
